@@ -1,0 +1,20 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/DynGig/Automata/CLI/Sequence/CTRL.pm
+lib/DynGig/Automata/CLI/Sequence/Run.pm
+lib/DynGig/Automata/CLI/Watcher/Exclude.pm
+lib/DynGig/Automata/CLI/Watcher/Run.pm
+lib/DynGig/Automata/CLI/Watcher/Service.pm
+lib/DynGig/Automata/EZDB/Alert.pm
+lib/DynGig/Automata/EZDB/Exclude.pm
+lib/DynGig/Automata/MapReduce.pm
+lib/DynGig/Automata/Sequence.pm
+lib/DynGig/Automata/Serial.pm
+lib/DynGig/Automata/Thread.pm
+lib/DynGig/Automata.pm
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
