@@ -13,6 +13,7 @@ use Pod::Usage;
 use Getopt::Long;
 
 use DynGig::Util::CLI;
+use DynGig::Util::Setuid;
 use DynGig::Util::LockFile::PID;
 use DynGig::Automata::MapReduce;
 

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                DynGig-Automata
-version:             0.01
+version:             0.02
 abstract:            A collection of automation frameworks
 license:             perl
 author:              
