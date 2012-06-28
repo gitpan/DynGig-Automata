@@ -17,11 +17,16 @@ use strict;
  PRIMARY KEY ( key )
 
 =cut
-@DynGig::Util::EZDB::SCHEMA =
-(
-    key   => 'TEXT NOT NULL PRIMARY KEY',
-    value => 'BLOB',
-); 
+sub new
+{
+    DynGig::Util::EZDB->schema
+    (
+        key   => 'TEXT NOT NULL PRIMARY KEY',
+        value => 'BLOB',
+    );
+
+    bless DynGig::Util::EZDB::new( @_ ), __PACKAGE__;
+}
 
 =head1 SYNOPSIS
 

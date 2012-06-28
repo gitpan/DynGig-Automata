@@ -4,4 +4,9 @@ Revision history for DynGig-Automata
         First version.
 
 0.02    2012-05-18
-        Bug fix in DynGig::Automata::CLI::Watcher::Run
+        Bug fix in CLI::Watcher::Run
+
+0.03    2012-06-28
+        Bug fix in EZDB::Alert
+        Bug fix in EZDB::Exclude
+	Remove CLI::Service (deprecated by DynGig::Util::CLI::Service)

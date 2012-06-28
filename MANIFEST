@@ -6,7 +6,6 @@ lib/DynGig/Automata/CLI/Sequence/CTRL.pm
 lib/DynGig/Automata/CLI/Sequence/Run.pm
 lib/DynGig/Automata/CLI/Watcher/Exclude.pm
 lib/DynGig/Automata/CLI/Watcher/Run.pm
-lib/DynGig/Automata/CLI/Watcher/Service.pm
 lib/DynGig/Automata/EZDB/Alert.pm
 lib/DynGig/Automata/EZDB/Exclude.pm
 lib/DynGig/Automata/MapReduce.pm

@@ -20,13 +20,18 @@ use strict;
  PRIMARY KEY ( key )
 
 =cut
-@DynGig::Util::EZDB::SCHEMA = 
-(
-    alpha => 'INTEGER NOT NULL',
-    omega => 'INTEGER NOT NULL',
-    key   => 'INTEGER NOT NULL PRIMARY KEY',
-    value => 'TEXT',
-);
+sub new
+{
+    DynGig::Util::EZDB->schema
+    (
+        alpha => 'INTEGER NOT NULL',
+        omega => 'INTEGER NOT NULL',
+        key   => 'INTEGER NOT NULL PRIMARY KEY',
+        value => 'TEXT',
+    );
+
+    bless DynGig::Util::EZDB::new( @_ ), __PACKAGE__;
+}
 
 =head1 SYNOPSIS
 
