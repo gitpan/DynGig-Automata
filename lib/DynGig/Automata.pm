@@ -7,33 +7,13 @@ package DynGig::Automata;
 
 =head1 VERSION
 
-Version 0.03
+Version 1.00 
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '1.00';
 
 =head1 MODULES
-
-=head2 DynGig::Automata::CLI::Sequence::CTRL 
-
-CLI for sequence control.
-
-=head2 DynGig::Automata::CLI::Sequence::Run 
-
-CLI for sequence run.
-
-=head2 DynGig::Automata::CLI::Watcher::Exclude 
-
-CLI for watcher exclude.
-
-=head2 DynGig::Automata::CLI::Watcher::Run 
-
-CLI for watcher run.
-
-=head2 DynGig::Automata::CLI::Watcher::Service 
-
-CLI for watcher service.
 
 =head2 DynGig::Automata::MapReduce 
 
