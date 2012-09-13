@@ -26,7 +26,7 @@ sub new
     (
         alpha => 'INTEGER NOT NULL',
         omega => 'INTEGER NOT NULL',
-        key   => 'INTEGER NOT NULL PRIMARY KEY',
+        key   => 'TEXT NOT NULL PRIMARY KEY',
         value => 'TEXT',
     );
 

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DynGig-Automata
-version:            1.00
+version:            1.01
 abstract:           A collection of automation frameworks
 author:
     - Kan Liu <kan@cpan.org>
